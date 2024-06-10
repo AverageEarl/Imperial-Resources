@@ -1,0 +1,1 @@
+tar -C %~dp0imperialResources -a -c -f ImperialResources.zip assets pack.png pack.mcmeta
