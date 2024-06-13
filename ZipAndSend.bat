@@ -1,0 +1,1 @@
+FOR /F "delims=" %%i IN (path.txt) DO tar -C %~dp0imperialResources -a -c -f %%i\ImperialResources.zip assets pack.png pack.mcmeta
